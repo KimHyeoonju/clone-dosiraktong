@@ -75,13 +75,34 @@ body {
   display: flex;
   justify-content: center;
   align-items: center;
+
+  padding: 50px;
+  padding-top: 75px;
+}
+
+.modal-txt {
+  line-height: 2.3;
+  word-break: keep-all;
+}
+.modal-txt a {
+  color: #3056a1;
 }
 
 .modal-close {
+  border: hsl(217, 15%, 83%) 1px solid;
+  background-color: white;
+  padding: 7px 10px;
+  border-radius: 7px;
+
   position: absolute;
-  right: 10px;
-  top: 10px;
+  right: 30px;
+  top: 25px;
   cursor: pointer;
+}
+
+.modal-close:hover {
+  background-color: hsl(217, 15%, 83%);
+  color: white;
 }
 
 .fadeOut {
